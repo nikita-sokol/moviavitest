@@ -204,6 +204,20 @@
   .img-slide img {
     width: 200px;
   }
+  .modes {
+    display: none;
+  }
+  .switch-easy,
+  .switch-full {
+    display: none;
+  }
+  .modes-xs {
+    display: block;
+  }
+  .switch-easy-xs,
+  .switch-full-xs {
+    display: inline-block;
+  }
   .mode-switch-full {
     font-size: 16px;
   }
@@ -256,11 +270,6 @@
     height: 140px;
   }
 }
-@media only screen and (max-width: 650px) {
-  .modes {
-    width: 440px;
-  }
-}
 @media only screen and (max-width: 530px) {
   .btn-guides {
     width: 100%;
@@ -308,22 +317,12 @@
   .inst-img img {
     width: 100%;
   }
-  .modes {
-    display: none;
-  }
-  .switch-easy,
-  .switch-full {
-    display: none;
-  }
-  .modes-xs {
-    display: block;
-  }
-  .switch-easy-xs,
-  .switch-full-xs {
-    display: inline-block;
-  }
 }
 @media only screen and (max-width: 480px) {
+  .mode-easy-xs,
+  .mode-full-xs {
+    width: 48.5%;
+  }
   .m-slideshow .btn-duwn-win,
   .m-slideshow .btn-duwn-mac {
     width: 250px;

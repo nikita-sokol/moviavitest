@@ -1,0 +1,346 @@
+@media only screen and (max-width: 1199px) {
+  .make-slid h2 {
+    font-size: 28px;
+  }
+  .make-slid li {
+    font-size: 18px;
+  }
+  .h-title {
+    margin-bottom: 18px;
+  }
+  .instr {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .modes {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .modes {
+    width: 554px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .make-slid h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .make-slid li {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .make-vide h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 20px;
+  }
+  .ins-list h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .ins-list p {
+    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .list-title h3::before {
+    top: 12px;
+  }
+  .list-lin-first {
+    top: 56px;
+  }
+  .p-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .make-slid li::before {
+    left: 0px;
+    top: 10px;
+  }
+  .m-slideshow {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .m-slideshow h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .m-slideshow li + li {
+    margin-top: 30px;
+  }
+  .m-slideshow li {
+    padding-left: 50px;
+    position: relative;
+  }
+  .m-slideshow ul {
+    margin-bottom: 50px;
+  }
+  .img-slide {
+    margin-top: 40px;
+  }
+  .img-slide img {
+    width: 210px;
+  }
+  .s-remark {
+    margin-bottom: 30px;
+  }
+  .guides h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .btn-guides {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .btn-questions {
+    height: 132px;
+    margin-bottom: 30px;
+  }
+  .btn-questions p {
+    padding-left: 164px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .csupport::before {
+    background: url(../img/csupport.png) 0 0 no-repeat;
+    background-size: cover;
+    left: 40px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .csupport:hover::before {
+    background: url(../img/csupport.png) -101px 0 no-repeat;
+    background-size: cover;
+    left: 40px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .vguides::before {
+    background: url(../img/vguides.png) 0 0 no-repeat;
+    background-size: cover;
+    left: 40px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .vguides:hover::before {
+    background: url(../img/vguides.png) -101px 0 no-repeat;
+    background-size: cover;
+    left: 40px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .make-slid .btn-duwn-win,
+  .make-slid .btn-duwn-mac {
+    margin: 0 auto 30px;
+    width: 335px;
+    display: block;
+  }
+  .make-vide .btn-duwn-win,
+  .make-vide .btn-duwn-mac {
+    margin: 0 auto 30px;
+    width: 335px;
+    display: block;
+  }
+  .list-title h3::before {
+    opacity: 0;
+  }
+  .list-line {
+    display: none;
+  }
+  .list-lin-first {
+    display: none;
+  }
+  .list-lin-last {
+    display: none;
+  }
+  .list-round {
+    display: none;
+  }
+  .list-title h3 {
+    padding-left: 0;
+  }
+  .list-text p {
+    padding-left: 0;
+  }
+  .m-slideshow h2 {
+    text-align: center;
+  }
+  .m-slideshow .btn-duwn-win,
+  .m-slideshow .btn-duwn-mac {
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .m-slideshow .btn-duwn-mac {
+    margin-top: 30px;
+  }
+  .s-remark {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+  .inst-img {
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .inst-img img {
+    width: 456px;
+  }
+  .img-slide {
+    margin-top: 0;
+    text-align: center;
+  }
+  .img-slide img {
+    width: 200px;
+  }
+  .mode-switch-full {
+    font-size: 16px;
+  }
+  .btn-guides {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 400px;
+  }
+  .btn-questions {
+    width: 450px;
+    height: 168px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .btn-questions p {
+    padding-left: 220px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .csupport::before {
+    background: url(../img/csupport.png) 0 0 no-repeat;
+    background-size: cover;
+    left: 48px;
+    top: 15px;
+    width: 140px;
+    height: 140px;
+  }
+  .csupport:hover::before {
+    background: url(../img/csupport.png) -142px 0 no-repeat;
+    background-size: cover;
+    left: 48px;
+    top: 15px;
+    width: 140px;
+    height: 140px;
+  }
+  .vguides::before {
+    background: url(../img/vguides.png) 0 0 no-repeat;
+    background-size: cover;
+    left: 48px;
+    top: 15px;
+    width: 140px;
+    height: 140px;
+  }
+  .vguides:hover::before {
+    background: url(../img/vguides.png) -142px 0 no-repeat;
+    background-size: cover;
+    left: 48px;
+    top: 15px;
+    width: 140px;
+    height: 140px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .modes {
+    width: 440px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .btn-guides {
+    width: 100%;
+  }
+  .questions h2 {
+    font-size: 28px;
+  }
+  .btn-questions {
+    width: 290px;
+    height: 132px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .btn-questions p {
+    padding-left: 132px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .csupport::before {
+    left: 15px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .csupport:hover::before {
+    left: 15px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .vguides::before {
+    left: 15px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .vguides:hover::before {
+    left: 15px;
+    top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  .inst-img img {
+    width: 100%;
+  }
+  .modes {
+    display: none;
+  }
+  .switch-easy,
+  .switch-full {
+    display: none;
+  }
+  .modes-xs {
+    display: block;
+  }
+  .switch-easy-xs,
+  .switch-full-xs {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .m-slideshow .btn-duwn-win,
+  .m-slideshow .btn-duwn-mac {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .make-slid .btn-duwn-win,
+  .make-slid .btn-duwn-mac {
+    margin: 0 auto 30px;
+    width: 284px;
+    display: block;
+  }
+  .make-vide .btn-duwn-win,
+  .make-vide .btn-duwn-mac {
+    margin: 0 auto 30px;
+    width: 284px;
+    display: block;
+  }
+}
